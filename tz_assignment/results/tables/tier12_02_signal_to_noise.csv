@@ -1,3 +1,5 @@
 symbol,feature,horizon,rank_ic,n
 btcusdt,book_imbalance,5s,0.3310116750846723,79995
 btcusdt,ofi_increment,5s,0.05451449644520497,79995
+ethusdt,book_imbalance,5s,0.30934786115501645,79995
+ethusdt,ofi_increment,5s,0.05622324717337703,79995
