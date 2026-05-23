@@ -1,0 +1,20 @@
+{
+  "symbol": "btcusdt",
+  "train_frac": 0.4,
+  "max_days": 90,
+  "kalman": {
+    "kalman_q_level": 1e-5,
+    "kalman_q_vel": 1e-8,
+    "kalman_r_obs": 0.001,
+    "kalman_adapt": 0.05
+  },
+  "lgbm": {
+    "num_leaves": 15,
+    "learning_rate": 0.02
+  },
+  "reference_wr_test": {
+    "kalman_only": {"1": 0.537, "30": 0.530, "300": 0.535},
+    "lgbm_no_kalman": {"1": 0.704, "30": 0.560, "300": 0.512},
+    "score_long_micro": 0.536
+  }
+}

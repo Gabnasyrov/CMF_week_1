@@ -1,0 +1,35 @@
+{
+  "description": "Reference hit_rate on test (60%) from full price_forecast research, 90 days",
+  "btcusdt": {
+    "best_kalman": {
+      "kalman_q_level": 1e-5,
+      "kalman_q_vel": 1e-8,
+      "kalman_r_obs": 0.001,
+      "kalman_adapt": 0.05
+    },
+    "best_lgbm": {"num_leaves": 15, "learning_rate": 0.02},
+    "final": {
+      "1": {"kalman_only": 0.537, "lgbm_no_kalman": 0.704, "lgbm_full": 0.846},
+      "30": {"kalman_only": 0.530, "lgbm_no_kalman": 0.560, "lgbm_full": 0.567},
+      "300": {"kalman_only": 0.535, "lgbm_no_kalman": 0.512, "lgbm_full": 0.508},
+      "score_long_micro": 0.536
+    }
+  },
+  "ethusdt": {
+    "best_kalman": {
+      "kalman_q_level": 1e-7,
+      "kalman_q_vel": 1e-8,
+      "kalman_r_obs": 1e-5,
+      "kalman_adapt": 0.05
+    },
+    "best_lgbm": {"num_leaves": 15, "learning_rate": 0.05},
+    "final": {
+      "1": {"kalman_only": 0.529, "lgbm_no_kalman": 0.622, "lgbm_full": 0.798},
+      "30": {"kalman_only": 0.537, "lgbm_no_kalman": 0.544, "lgbm_full": 0.548},
+      "300": {"kalman_only": 0.533, "lgbm_no_kalman": 0.516, "lgbm_full": 0.520},
+      "score_long_micro": 0.530
+    }
+  },
+  "wr_threshold": 0.53,
+  "recommended_strategies": ["lgbm_no_kalman@30s", "kalman_only", "ensemble@30s"]
+}

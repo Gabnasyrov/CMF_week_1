@@ -1,0 +1,31 @@
+# Raw and enriched market data (multi-GB)
+data/
+**/data/*.parquet
+**/data/enriched/
+
+# tz_assignment: keep layout docs only (see tz_assignment/.gitignore)
+tz_assignment/data/*
+!tz_assignment/data/README.md
+!tz_assignment/data/.gitkeep
+
+# Generated analysis / PnL outputs (reproducible)
+analysis/tables/
+analysis/figures/
+research/pnl_evaluation/results/
+
+# Staging downloads
+data/staging/
+
+# Python / env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+*.egg-info/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

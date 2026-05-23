@@ -1,0 +1,17 @@
+tier,task,status,artifact
+1.1,Data quality,done,tables/tier11_01_data_quality.csv
+1.1,Stream frequency,done,tables/tier11_01b_stream_frequency.csv
+1.1,Hour-of-day liq,done,figures/tier11_02_hour_of_day_liq.png
+1.1,Univariate dist,done,tables/tier11_02_univariate_summary.csv
+1.1,Cross-exchange liq,done,tables/tier11_03_cross_liq_alignment.csv
+1.2,Spread & trade stats,done,tables/tier12_01_trade_stats_sample.csv
+1.2,Stationarity ADF,done,tables/tier12_02_stationarity_adf.csv
+1.2,Vol regimes,done,tables/tier12_02_vol_regimes.csv
+1.2,Outliers,done,tables/tier12_02_outlier_structure.csv
+1.2,Autocorrelation,done,figures/tier12_02_autocorrelation.png
+1.2,Signal-to-noise,done,tables/tier12_02_signal_to_noise.csv
+1.3,Orderbook at liq,done,tables/tier13_01_depth_at_liq_sample.csv
+1.3,Side imbalance,done,figures/tier13_02_side_imbalance.png
+1.3,Liq heatmap,done,figures/tier13_03_liq_heatmap_*.png
+1.3,Lead-lag heatmap,done,figures/tier13_04_leadlag_heatmap_*.png
+1.3,Cross-venue div proxy,done,tables/tier13_04_cross_venue_div_proxy.csv

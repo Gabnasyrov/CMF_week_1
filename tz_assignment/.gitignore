@@ -1,0 +1,6 @@
+data/*
+!data/README.md
+!data/.gitkeep
+__pycache__/
+.ipynb_checkpoints/
+*.pyc

@@ -1,0 +1,20 @@
+{
+  "symbol": "ethusdt",
+  "train_frac": 0.4,
+  "max_days": 90,
+  "kalman": {
+    "kalman_q_level": 1e-7,
+    "kalman_q_vel": 1e-8,
+    "kalman_r_obs": 1e-5,
+    "kalman_adapt": 0.05
+  },
+  "lgbm": {
+    "num_leaves": 15,
+    "learning_rate": 0.05
+  },
+  "reference_wr_test": {
+    "kalman_only": {"5": 0.535, "30": 0.537, "300": 0.533},
+    "lgbm_no_kalman": {"1": 0.622, "30": 0.544, "300": 0.516},
+    "score_long_micro": 0.530
+  }
+}

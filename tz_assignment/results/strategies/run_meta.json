@@ -1,0 +1,10 @@
+{
+  "bundled_for_review": true,
+  "data_root": "not required for notebook viewer",
+  "symbols": ["btcusdt", "ethusdt"],
+  "pnl_ran": true,
+  "pnl_includes_venue_bybit": true,
+  "bybit_filter_csv": "results/strategies/bybit_filter_summary.csv",
+  "note": "Bybit rows: liquidations as proxy events; same Binance signal; markout on Binance BBO mid",
+  "reproduce": "cd tz_assignment && python run_all.py"
+}

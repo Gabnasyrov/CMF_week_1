@@ -1,0 +1,9 @@
+source,symbol,rows_per_day
+binance_trades,btcusdt,4491817.07821229
+binance_booktickers,btcusdt,1132674.938547486
+binance_liquidations,btcusdt,1318.8100558659219
+bybit_liquidations,btcusdt,2448.1340782122907
+binance_trades,ethusdt,7656152.296089386
+binance_booktickers,ethusdt,1229800.1843575418
+binance_liquidations,ethusdt,1512.826815642458
+bybit_liquidations,ethusdt,1688.022346368715

@@ -1,0 +1,5 @@
+artifacts/models/**/*.joblib
+artifacts/models/**/eval_results.json
+artifacts/models/**/train_meta.json
+__pycache__/
+*.pyc
